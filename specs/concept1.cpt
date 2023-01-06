@@ -1,0 +1,47 @@
+Created by testinium on 3.01.2023
+
+This is a concept file with following syntax for each concept.
+# Arama cubugunun sol tarafinda menu butonuna basilir
+* "//span[@class='ipc-responsive-button__text']" xpath'li element gorunur olana kadar bekle
+* "//span[@class='ipc-responsive-button__text']" xpath'li elemente tikla
+
+# Go to the site with <url>
+* Go to <url> address
+
+# Gelen ekranda Oscars butonuna tiklanir
+* "//*[text()='Oscars']" xpath'li element gorunur olana kadar bekle
+* "//*[text()='Oscars']" xpath'li elemente tikla
+
+# Event history basligi altinda 1929 secilir
+* "//a[text()='1929']" alanına kaydır
+* "//a[text()='1929']" xpath'li elemente tikla
+
+# Honorary awards basligi altinda circus secilir director,writer,stars bilgileri kaydedilir
+* "//a[text()='The Circus']" alanına kaydır
+* "//a[text()='The Circus']" xpath'li elemente tikla
+* "//div[text()='Add to Watchlist']" xpath'li element gorunur olana kadar bekle
+* "(//a[@class='ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link'])[1]" elementin text degeri bir dizine at
+* "(//a[@class='ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link'])[2]" elementin text degeri ikinci bir dizine at
+* "(//a[@class='ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link'])[3]" elementin text degeri ucuncu bir dizine at
+
+# Sol ustteki imdb tiklanarak anasayfaya donulur
+* "//a[@class='sc-bqyKva ehfErK imdb-header__logo-link']" xpath'li elemente tikla
+* "//a[@class='sc-bqyKva ehfErK imdb-header__logo-link']" li elementin oldugu kontrol edilir
+
+# Arama alanina The Circus yazilir,sonuclar arasinda gelen The Circus tiklanir
+* "suggestion-search" id'li elemente "The Circus" text degerini gonder
+* "(//div[text()='The Circus'])[1]" xpath'li elemente tikla
+* "//div[text()='Add to Watchlist']" xpath'li element gorunur olana kadar bekle
+
+# Bilgisi kaydedilen director, writer,stars ayni mi kontrol edilir
+* "(//a[@class='ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link'])[1]" elementin text degeri bir dizine at
+* string listenin iki elementinin esit oldugunu kontrol et
+* "(//a[@class='ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link'])[2]" elementin text degeri ikinci bir dizine at
+* string2 listesinin iki elementinin esit oldugunu kontrol et
+* "(//a[@class='ipc-metadata-list-item__list-content-item ipc-metadata-list-item__list-content-item--link'])[3]" elementin text degeri ucuncu bir dizine at
+* string3 listesinin iki elementinin esit oldugunu kontrol et
+
+
+
+
+

@@ -1,0 +1,15 @@
+06-01-2023 09:22:53.055 [Gauge] [INFO] Initializing concepts cache with 8 concepts
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.056 [Gauge] [DEBUG] Adding concepts from /Users/testinium/ımdbOtomasyonProjesi/specs/concept1.cpt
+06-01-2023 09:22:53.059 [Gauge] [INFO] Initializing specs cache with 1 specs
+06-01-2023 09:22:53.059 [Gauge] [DEBUG] Adding specs from /Users/testinium/ımdbOtomasyonProjesi/specs/example.spec
+06-01-2023 09:22:53.059 [Gauge] [INFO] Initializing steps cache with 2 steps
+06-01-2023 09:22:53.059 [Gauge] [INFO] Gauge daemon initialized and listening on port: 58872
+06-01-2023 09:22:53.061 [Gauge] [DEBUG] Watching directory: /Users/testinium/ımdbOtomasyonProjesi/specs
+06-01-2023 09:22:53.061 [Gauge] [DEBUG] Found 2 files
